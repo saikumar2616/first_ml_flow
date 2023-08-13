@@ -35,7 +35,8 @@ if __name__ == "__main__":
 
     # Read the wine-quality csv file from the URL
     csv_url = (
-        "https://raw.githubusercontent.com/mlflow/mlflow/master/tests/datasets/winequality-red.csv"
+        # "https://raw.githubusercontent.com/mlflow/mlflow/master/tests/datasets/winequality-red.csv"
+        "D:\\IT Job\\mlflow\\first_ml_flow\\winequality-red.csv"
     )
     try:
         data = pd.read_csv(csv_url, sep=";")
@@ -82,6 +83,7 @@ if __name__ == "__main__":
         remote_server_url="https://dagshub.com/saikumar2616/first_ml_flow.mlflow"
         mlflow.set_tracking_uri(remote_server_url)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
+        print("tracking_url_type_store is :" , tracking_url_type_store)
 
         # Model registry does not work with file store
         if tracking_url_type_store != "file":

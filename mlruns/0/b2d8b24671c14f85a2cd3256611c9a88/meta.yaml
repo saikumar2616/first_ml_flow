@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b2d8b24671c14f85a2cd3256611c9a88/artifacts
+end_time: 1691917151628
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b2d8b24671c14f85a2cd3256611c9a88
+run_name: skillful-snail-235
+run_uuid: b2d8b24671c14f85a2cd3256611c9a88
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1691917151472
+status: 4
+tags: []
+user_id: HOME

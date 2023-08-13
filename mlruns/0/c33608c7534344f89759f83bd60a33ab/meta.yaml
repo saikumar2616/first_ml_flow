@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/c33608c7534344f89759f83bd60a33ab/artifacts
+end_time: 1691917264824
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c33608c7534344f89759f83bd60a33ab
+run_name: skillful-squid-868
+run_uuid: c33608c7534344f89759f83bd60a33ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1691917258595
+status: 4
+tags: []
+user_id: HOME
