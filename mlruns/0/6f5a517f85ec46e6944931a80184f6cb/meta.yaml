@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/6f5a517f85ec46e6944931a80184f6cb/artifacts
+end_time: 1691919216551
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6f5a517f85ec46e6944931a80184f6cb
+run_name: trusting-flea-736
+run_uuid: 6f5a517f85ec46e6944931a80184f6cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1691919210634
+status: 4
+tags: []
+user_id: HOME
