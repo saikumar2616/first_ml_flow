@@ -57,6 +57,11 @@ if __name__ == "__main__":
     alpha = float(sys.argv[1]) if len(sys.argv) > 1 else 0.5
     l1_ratio = float(sys.argv[2]) if len(sys.argv) > 2 else 0.5
 
+    from datetime import datetime 
+    randown_time = datetime.now().strftime("%d%m%Y%H%M%S")
+
+    mlflow.set_experiment("Sai_run_at_"+randown_time)
+
     with mlflow.start_run():
         lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=42)
         lr.fit(train_x, train_y)
@@ -92,7 +97,7 @@ if __name__ == "__main__":
             # please refer to the doc for more information:
             # https://mlflow.org/docs/latest/model-registry.html#api-workflow
             mlflow.sklearn.log_model(
-                lr, "model", registered_model_name="ElasticnetWineModel", signature=signature
+                lr, "updated_model", registered_model_name="ElasticnetWineModel", signature=signature
             )
         else:
             mlflow.sklearn.log_model(lr, "model", signature=signature)
