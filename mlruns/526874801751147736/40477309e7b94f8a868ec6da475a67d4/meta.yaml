@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/IT%20Job/mlflow/first_ml_flow/mlruns/526874801751147736/40477309e7b94f8a868ec6da475a67d4/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '526874801751147736'
+lifecycle_stage: active
+run_id: 40477309e7b94f8a868ec6da475a67d4
+run_name: gentle-gnat-747
+run_uuid: 40477309e7b94f8a868ec6da475a67d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1691994430724
+status: 1
+tags: []
+user_id: HOME

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/IT%20Job/mlflow/first_ml_flow/mlruns/484569517891800006/fd1f388f632241deaa58c1200298722d/artifacts
+end_time: 1691994409780
+entry_point_name: ''
+experiment_id: '484569517891800006'
+lifecycle_stage: active
+run_id: fd1f388f632241deaa58c1200298722d
+run_name: gaudy-quail-427
+run_uuid: fd1f388f632241deaa58c1200298722d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1691994401924
+status: 3
+tags: []
+user_id: HOME

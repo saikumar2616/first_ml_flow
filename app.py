@@ -54,6 +54,8 @@ if __name__ == "__main__":
     train_y = train[["quality"]]
     test_y = test[["quality"]]
 
+   
+
     alpha = float(sys.argv[1]) if len(sys.argv) > 1 else 0.5
     l1_ratio = float(sys.argv[2]) if len(sys.argv) > 2 else 0.5
 
@@ -85,8 +87,8 @@ if __name__ == "__main__":
         signature = infer_signature(train_x, predictions)
 
         #rEMOTE sERVER
-        # remote_server_url="https://dagshub.com/saikumar2616/first_ml_flow.mlflow"
-        # mlflow.set_tracking_uri(remote_server_url)
+        remote_server_url="https://dagshub.com/saikumar2616/first_ml_flow.mlflow"
+        mlflow.set_tracking_uri(remote_server_url)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         print("tracking_url_type_store is :" , tracking_url_type_store)
 
